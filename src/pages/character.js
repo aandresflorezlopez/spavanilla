@@ -6,7 +6,7 @@ const Character = async () => {
   const character = await getData(id);
   const view = `
     <div class="character-inner">
-      <article class="character-inner__card">
+      <article class="character-inner__item">
         <img src="${character.image}" alt="${character.name}" />
         <h2>${character.name}</h2>
       </article>
